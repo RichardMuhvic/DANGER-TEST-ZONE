@@ -133,4 +133,105 @@ body {
   bottom: 0;
 }
 
+/*---PLAN 3---*/
+.plan_3 {
+  width: 100%;
+  height: auto;
+}
+.plan_3 .plan_3_img:nth-child(1) {
+  position: absolute;
+  z-index: -1;
+  width: 650px;
+  height: auto;
+  left: 0;
+  bottom: 0;
+}
+.plan_3 .plan_3_img:nth-child(2) {
+  position: absolute;
+  z-index: -1;
+  width: 650px;
+  height: auto;
+  right: 0;
+  bottom: 0;
+}
+
+/*---PLAN 4---*/
+.plan_4 {
+  width: 100%;
+  height: auto;
+}
+.plan_4 .plan_4_img:nth-child(1) {
+  position: absolute;
+  z-index: -5;
+  width: auto;
+  height: 100%;
+  left: 10%;
+  bottom: 0;
+}
+.plan_4 .plan_4_img:nth-child(2) {
+  position: absolute;
+  z-index: -5;
+  width: auto;
+  height: 100%;
+  right: 10%;
+  bottom: 0;
+}
+
+/*---PLAN 5---*/
+.plan_5 {
+  width: 100%;
+  height: auto;
+}
+.plan_5 .plan_5_img:nth-child(1) {
+  position: absolute;
+  z-index: -10;
+  left: 0;
+  bottom: 0;
+}
+.plan_5 .plan_5_img:nth-child(2) {
+  position: absolute;
+  z-index: -10;
+  right: 0;
+  bottom: 0;
+}
+
+* .plan_6 {
+  width: 100%;
+  height: auto;
+}
+* .plan_6 .plan_6_img {
+  position: absolute;
+  z-index: -15;
+  right: 0;
+  top: 0;
+}
+
+/*---PLAN 7---*/
+.plan_7 {
+  width: 100%;
+  height: auto;
+}
+.plan_7 .plan_7_img {
+  position: absolute;
+  z-index: -20;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+/*---PLAN 8---*/
+.plan_8 {
+  width: 100%;
+  height: auto;
+}
+.plan_8 .plan_8_img {
+  position: absolute;
+  z-index: -25;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  opacity: 0.8;
+}
+
 /*# sourceMappingURL=style.css.map */
