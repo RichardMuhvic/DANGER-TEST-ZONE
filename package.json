@@ -1,0 +1,19 @@
+{
+  "name": "zone-de-test",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000D\u0000A\u0000N\u0000G\u0000E\u0000R\u0000-\u0000T\u0000E\u0000S\u0000T\u0000-\u0000Z\u0000O\u0000N\u0000E\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardMuhvic/DANGER-TEST-ZONE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardMuhvic/DANGER-TEST-ZONE/issues"
+  },
+  "homepage": "https://github.com/RichardMuhvic/DANGER-TEST-ZONE#readme"
+}
