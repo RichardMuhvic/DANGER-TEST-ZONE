@@ -7,249 +7,245 @@ body {
 }
 
 /*---PLAN 1---*/
-.plan_1 {
+#parallax {
+    position: relative;
     width: 100%;
-    height: auto;
+    height: 100vh;
+    
+    .plan_1, .plan_2, .plan_3, .plan_4, .plan_5, .plan_6, .plan_7, .plan_8 {
+    
+    }
+    
+    .plan_1_img:nth-child(1), .plan_1_img:nth-child(2), .plan_1_img:nth-child(3), 
+    .plan_1_img:nth-child(5), .plan_1_img:nth-child(7), .plan_1_img:nth-child(8), 
+    .plan_2_img:nth-child(1), .plan_2_img:nth-child(2), .plan_2_img:nth-child(3), 
+    .plan_2_img:nth-child(4), .plan_2_img:nth-child(5), .plan_2_img:nth-child(6), 
+    .plan_2_img:nth-child(7), .plan_2_img:nth-child(8), .plan_2_img:nth-child(9), 
+    .plan_3_img:nth-child(1), .plan_3_img:nth-child(2), .plan_4_img:nth-child(1), 
+    .plan_4_img:nth-child(2), .plan_5_img:nth-child(1), .plan_5_img:nth-child(2), 
+    .plan_6_img, .plan_7_img, .plan_8_img {
+        position: absolute;
+    }
 
-    .plan_1_img:nth-child(1) {
+    /*---PLAN 1---*/
+    .plan_1 {
         position: absolute;
-        width: 18%;
-        top: 0;
-        left: 0;
-    }
-    .plan_1_img:nth-child(2) {
-        position: absolute;
-        width: 80%;
-        top: 0;
-        right: 0;
-    }
-    .plan_1_img:nth-child(3) {
-        position: absolute;
-        width: 200px;
-        height: auto;
-        top: 30%;
-        left: 0;
-    }
-    img:nth-child(4) {
-        position: absolute;
-        width: 200px;
-        height: auto;
-        top: 25%;
-        right: 0;
-    }
-    .plan_1_img:nth-child(5) {
-        position: absolute;
-        width: 350px;
-        height: auto;
-        left: 0;
-        bottom: 0;
-    }
-    img:nth-child(6) {
-        position: absolute;
-        width: 320px;
-        height: auto;
-        left: 30%;
-        bottom: 0;
-    }
-    .plan_1_img:nth-child(7) {
-        position: absolute;
-        width: 350px;
-        height: auto;
-        right: 0;
-        bottom: 0;
-    }
-    .plan_1_img:nth-child(8) {
-        position: absolute;
-        width: 320px;
-        height: auto;
-        right: 25%;
-        bottom: 0;
-    }
-}
-
-
-
-/*---PLAN 2---*/
-.plan_2 {
-    width: 100%;
-    height: auto;
-
-    .plan_2_img:nth-child(1) {
-        position: absolute;
-        width: 280px;
-        top: 0;
-        left: 0;
-    }
-    .plan_2_img:nth-child(2) {
-        position: absolute;
-        width: 320px;
-        top: 0;
-        left: 20%;
-    }
-    .plan_2_img:nth-child(3) {
-        position: absolute;
-        width: 350px;
-        height: auto;
-        top: 0;
-        left: 40%;
-    }
-    .plan_2_img:nth-child(4) {
-        position: absolute;
-        width: 400px;
-        height: auto;
-        top: 0;
-        left: 70%;
-    }
-    .plan_2_img:nth-child(5) {
-        position: absolute;
-        width: 320px;
-        height: auto;
-        left: 0;
-        bottom: 0;
-    }
-    .plan_2_img:nth-child(6) {
-        position: absolute;
-        width: 320px;
-        height: auto;
-        right: 0;
-        top: 20%;
-    }
-    .plan_2_img:nth-child(7) {
-        position: absolute;
-        width: 450px;
-        height: auto;
-        left: 0;
-        bottom: 0;
-    }
-    .plan_2_img:nth-child(8) {
-        position: absolute;
-        width: 320px;
-        height: auto;
-        left: 40%;
-        bottom: 0;
-    }
-    .plan_2_img:nth-child(9) {
-        position: absolute;
-        width: 420px;
-        height: auto;
-        right: 0;
-        bottom: 0;
-    }  
-}
-
-
-/*---PLAN 3---*/
-.plan_3 {
-    width: 100%;
-    height: auto;
-
-    .plan_3_img:nth-child(1) {
-        position: absolute;
-        z-index: -1;
-        width: 650px;
-        height: auto;
-        left: 0;
-        bottom: 0;
-    }
-    .plan_3_img:nth-child(2) {
-        position: absolute;
-        z-index: -1;
-        width: 650px;
-        height: auto;
-        right: 0;
-        bottom: 0;
-    }
-}
-
-
-/*---PLAN 4---*/
-.plan_4 {
-    width: 100%;
-    height: auto;
-
-    .plan_4_img:nth-child(1) {
-        position: absolute;
-        z-index: -5;
-        width: auto;
-        height: 100%;
-        left: 10%;
-        bottom: 0;
-    }
-    .plan_4_img:nth-child(2) {
-        position: absolute;
-        z-index: -5;
-        width: auto;
-        height: 100%;
-        right: 10%;
-        bottom: 0;
-    }
-}
-
-
-/*---PLAN 5---*/
-.plan_5 {
-    width: 100%;
-    height: auto;
-
-    .plan_5_img:nth-child(1) {
-        position: absolute;
-        z-index: -10;
-        left: 0;
-        bottom: 0;
-    }
-    .plan_5_img:nth-child(2) {
-        position: absolute;
-        z-index: -10;
-        right: 0;
-        bottom: 0;
-    }
-}
-
-*/*---PLAN 6---*/
-.plan_6 {
-    width: 100%;
-    height: auto;
-
-    .plan_6_img {
-        position: absolute;
-        z-index: -15;
-        right: 0;
-        top: 0;
-    }
-}
-
-
-/*---PLAN 7---*/
-.plan_7 {
-    width: 100%;
-    height: auto;
-
-    .plan_7_img {
-        position: absolute;
-        z-index: -20;
         width: 100%;
         height: auto;
-        bottom: 0;
-        opacity: 0.8;
+    
+        .plan_1_img:nth-child(1) {
+            width: 18%;
+            top: 0;
+            left: 0;
+        }
+        .plan_1_img:nth-child(2) {
+            width: 80%;
+            top: 0;
+            right: 0;
+        }
+        .plan_1_img:nth-child(3) {
+            width: 20%;
+            height: auto;
+            top: 30%;
+            left: 0;
+        }
+        img:nth-child(4) {
+            width: 20%;
+            height: auto;
+            top: 25%;
+            right: 0;
+        }
+        .plan_1_img:nth-child(5) {
+            width: 20%;
+            height: auto;
+            left: 0;
+            bottom: 0;
+        }
+        img:nth-child(6) {
+            width: 20%;
+            height: auto;
+            left: 30%;
+            bottom: 0;
+        }
+        .plan_1_img:nth-child(7) {
+            width: 20%;
+            height: auto;
+            right: 0;
+            bottom: 0;
+        }
+        .plan_1_img:nth-child(8) {
+            width: 20%;
+            height: auto;
+            right: 25%;
+            bottom: 0;
+        }
     }
-}
-
-
-/*---PLAN 8---*/
-.plan_8 {
-    width: 100%;
-    height: auto;
-
-    .plan_8_img {
+    
+    /*---PLAN 2---*/
+    .plan_2 {
         position: absolute;
-        z-index: -25;
         width: 100%;
         height: auto;
-        bottom: 0;
-        opacity: 0.8;
+        .plan_2_img:nth-child(1) {
+            width: 20%;
+            top: 0;
+            left: 0;
+        }
+        .plan_2_img:nth-child(2) {
+            width: 20%;
+            top: 0;
+            left: 20%;
+        }
+        .plan_2_img:nth-child(3) {
+            width: 20%;
+            height: auto;
+            top: 0;
+            left: 40%;
+        }
+        .plan_2_img:nth-child(4) {
+            width: 20%;
+            height: auto;
+            top: 0;
+            left: 70%;
+        }
+        .plan_2_img:nth-child(5) {
+            width: 20%;
+            height: auto;
+            left: 0;
+            bottom: 0;
+        }
+        .plan_2_img:nth-child(6) {
+            width: 20%;
+            height: auto;
+            right: 0;
+            top: 20%;
+        }
+        .plan_2_img:nth-child(7) {
+            width: 20%;
+            height: auto;
+            left: 0;
+            bottom: 0;
+        }
+        .plan_2_img:nth-child(8) {
+            width: 20%;
+            height: auto;
+            left: 40%;
+            bottom: 0;
+        }
+        .plan_2_img:nth-child(9) {
+            width: 20%;
+            height: auto;
+            right: 0;
+            bottom: 0;
+        }  
+    }
+    
+    /*---PLAN 3---*/
+    .plan_3 {
+        position: absolute;
+        width: 100%;
+        height: auto;
+    
+        .plan_3_img:nth-child(1) {
+            z-index: -1;
+            width: 15%;
+            height: auto;
+            left: 0;
+            bottom: 0;
+        }
+        .plan_3_img:nth-child(2) {
+            z-index: -1;
+            width: 15%;
+            height: auto;
+            right: 0;
+            bottom: 0;
+        }
+    }
+    
+    /*---PLAN 4---*/
+    .plan_4 {
+        width: 100%;
+        height: 100vh;
+    
+        .plan_4_img:nth-child(1) {
+            z-index: -5;
+            width: auto;
+            height: 100%;
+            left: 10%;
+            bottom: 0;
+        }
+        .plan_4_img:nth-child(2) {
+            z-index: -5;
+            width: auto;
+            height: 100%;
+            right: 10%;
+            bottom: 0;
+        }
+    }
+    
+    /*---PLAN 5---*/
+    .plan_5 {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    
+        .plan_5_img:nth-child(1) {
+            z-index: -10;
+            left: 0;
+            bottom: 0;
+        }
+        .plan_5_img:nth-child(2) {
+            z-index: -10;
+            right: 0;
+            bottom: 0;
+        }
+    }
+    
+    */*---PLAN 6---*/
+    .plan_6 {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    
+        .plan_6_img {
+            z-index: -15;
+            right: 0;
+            top: 0;
+        }
+    }
+    
+    /*---PLAN 7---*/
+    .plan_7 {
+        position: absolute;
+    
+        width: 100%;
+        height: auto;
+    
+        .plan_7_img {
+            z-index: -20;
+            width: 100%;
+            height: auto;
+            bottom: 0;
+            opacity: 0.8;
+        }
+    }
+    
+    /*---PLAN 8---*/
+    .plan_8 {
+        position: absolute;
+    
+        width: 100%;
+        height: auto;
+    
+        .plan_8_img {
+            z-index: -25;
+            width: 100%;
+            height:  auto;
+            bottom: 0;
+            opacity: 0.8;
+        }
     }
 }
-
 
 
 
