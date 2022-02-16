@@ -11,6 +11,9 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .plan_1_img:nth-child(1), .plan_1_img:nth-child(2), .plan_1_img:nth-child(3), 
     .plan_1_img:nth-child(4), .plan_1_img:nth-child(5), .plan_1_img:nth-child(6),
     .plan_1_img:nth-child(7), .plan_1_img:nth-child(8),
@@ -26,6 +29,20 @@ body {
         position: absolute;
     }
     /*---PLAN 1---*/
+    h1 {
+        position: absolute;
+        z-index: 110;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(240, 239, 227);
+        font-size: 8em;
+        font-family: 'Neucha', cursive;
+        font-weight: bold;
+        letter-spacing: 40px;
+        text-transform: uppercase;
+        text-shadow: rgb(66, 65, 61) 1px 0 10px;;
+    }
     .plan_1 {
         position: absolute;
         z-index: 100;

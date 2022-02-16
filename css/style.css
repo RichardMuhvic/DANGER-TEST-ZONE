@@ -11,6 +11,9 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /*---PLAN 1---*/
   /*---PLAN 2---*/
   /*---PLAN 3---*/
@@ -32,6 +35,20 @@ body {
 #parallax .plan_7_img,
 #parallax .plan_8_img {
   position: absolute;
+}
+#parallax h1 {
+  position: absolute;
+  z-index: 110;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f0efe3;
+  font-size: 8em;
+  font-family: "Neucha", cursive;
+  font-weight: bold;
+  letter-spacing: 40px;
+  text-transform: uppercase;
+  text-shadow: #42413d 1px 0 10px;
 }
 #parallax .plan_1 {
   position: absolute;
