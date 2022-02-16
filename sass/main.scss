@@ -1,3 +1,6 @@
+@import 'abstracts/mixins';
+
+
 body {
     width: 100%;
     height: 100%;
@@ -42,13 +45,16 @@ body {
         font-weight: bold;
         letter-spacing: 40px;
         text-transform: uppercase;
-        text-shadow: rgb(66, 65, 61) 1px 0 10px;;
+        text-shadow: rgb(66, 65, 61) 1px 0 10px;
+        transition: 0.4s ease;
+        &:hover {
+            opacity: 0;
+            filter: blur(15px);
+        }
     }
     .plan_1 {
-        position: absolute;
+        @include planposition;
         z-index: 100;
-        width: 100%;
-        height: 100vh;
         .plan_1_img:nth-child(1) {
             width: 18%;
             top: 0;
@@ -99,10 +105,8 @@ body {
     
     /*---PLAN 2---*/
     .plan_2 {
-        position: absolute;
+        @include planposition;
         z-index: 90;
-        width: 100%;
-        height: 100vh;
         .plan_2_img:nth-child(1) {
             width: 20%;
             top: 0;
@@ -159,10 +163,8 @@ body {
     
     /*---PLAN 3---*/
     .plan_3 {
-        position: absolute;
+        @include planposition;
         z-index: 80;
-        width: 100%;
-        height: 100vh;
         .plan_3_img:nth-child(1) {
             width: 35%;
             height: auto;
@@ -179,10 +181,8 @@ body {
     
     /*---PLAN 4---*/
     .plan_4 {
-        position: absolute;
+        @include planposition;
         z-index: 70;
-        width: 100%;
-        height: 100vh;
         .plan_4_img:nth-child(1) {
             width: auto;
             height: 105%;
@@ -199,10 +199,8 @@ body {
     
     /*---PLAN 5---*/
     .plan_5 {
-        position: absolute;
+        @include planposition;
         z-index: 60;
-        width: 100%;
-        height: 100vh;
         .plan_5_img:nth-child(1) {
             left: 0;
             bottom: 0;
@@ -215,10 +213,8 @@ body {
     
     */*---PLAN 6---*/
     .plan_6 {
-        position: absolute;
+        @include planposition;
         z-index: 50;
-        width: 100%;
-        height: 100vh;
         .plan_6_img {
             right: 0;
             top: 0;
@@ -227,10 +223,8 @@ body {
     
     /*---PLAN 7---*/
     .plan_7 {
-        position: absolute;
+        @include planposition;
         z-index: 40;
-        width: 100%;
-        height: 100vh;
         .plan_7_img {
             width: 100%;
             height: auto;
@@ -241,10 +235,8 @@ body {
     
     /*---PLAN 8---*/
     .plan_8 {
-        position: absolute;
+        @include planposition;
         z-index: 30;
-        width: 100%;
-        height: 100vh;
         .plan_8_img {
             width: 100%;
             height:  auto;
