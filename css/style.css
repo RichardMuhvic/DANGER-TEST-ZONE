@@ -53,6 +53,7 @@ body {
   transition: 0.4s ease;
 }
 #parallax h1:hover {
+  cursor: default;
   opacity: 0;
   filter: blur(15px);
 }
